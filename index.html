@@ -8,25 +8,27 @@
     <title>Vite + TS</title>
   </head>
   <body>
-  <div id="app">
+    <div id="app">
+      <div id="puntuacion">Puntuación:</div>
 
-    <div id="puntuacion">Puntuación:</div>
-    
-    <button id="dameCarta">Dame Carta</button>
+      <button id="dameCarta">Dame Carta</button>
 
-    <div>
-      <img id="imagenCarta" src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg" alt="Imagen de carta de baraja española, boca abajo">
+      <div>
+        <img
+          id="imagenCarta"
+          src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg"
+          alt="Imagen de carta de baraja española, boca abajo"
+        />
+      </div>
+
+      <div id="mensajePuntuacionFinal"></div>
+
+      <button id="botonMePlanto">Me Planto</button>
+
+      <div id="mePlanto"></div>
+
+      <button id="nuevaPartida" style="display: none">Nueva Partida</button>
     </div>
-
-    <div id="gameOver"></div>
-
-    <button id="botonMePlanto">Me Planto</button>
-
-    <div id="mePlanto"></div>
-
-    <button id="nuevaPartida" style="display: none;">Nueva Partida</button>
-
-    </div>
-  <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
